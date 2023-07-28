@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.homecont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.cardcont {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  color: #f8fafc;
+}
+.button {
+  background-color: #f8fafc;
+  color: #303150;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+}
